@@ -1,0 +1,215 @@
+:root {
+	--accent-color: #6ABED8;
+	/*--accent-color: #488898;*/
+}
+
+body {
+    background-color: #181712; /*NEW BG COLOR*/
+}
+
+#content {
+	background-color: #333333;
+    color: #FFF; /* OLD #BBB */
+}
+
+#primary {
+	background-color: #333333;
+}
+
+#secondary {
+	background-color: #333333;
+}
+
+#comments {
+	background-color: #333333;
+}
+
+#respond {
+	background-color: #333333;
+}
+
+#primary h1 {
+	color: #DDDDDD;
+}
+
+#secondary h1 {
+	color: #DDDDDD;
+}
+
+#respond h3 {
+	color: #DDDDDD;
+}
+
+#content a {
+ 	color: #BBE6F4;
+}
+
+#secondary a {
+	color: #BBE6F4;
+}
+
+.comment {
+	color: #FFF; /* OLD #BBB */
+}
+
+#respond {
+	color: #FFF; /* OLD #BBB */
+	-webkit-box-shadow: 0px 0px 0px #181712;
+	box-shadow: 0px 0px 0px #181712;
+}
+
+#secondary a:hover {
+	text-decoration: underline;
+}
+
+#content a:hover {
+ 	text-decoration: underline;
+}
+
+ol.commentlist li .comment-meta a {
+	color: #BBE6F4;
+}
+
+ol.commentlist li .comment-meta, #respond label small {
+	border-bottom: 1px solid var(--accent-color);
+}
+
+h1.widget-title, h3.sidetitl {
+	border-bottom: 2px solid var(--accent-color);
+}
+
+#recentcomments {
+	color: #FFF; /* OLD #BBB */
+}
+
+.topcontainer {
+	background-color: var(--accent-color);
+}
+
+#submenu li a {
+	color: #181712;
+}
+
+.botcontainer {
+	background-color: #333333;
+    margin-bottom: 2%;
+}
+
+#bd-left {
+	background-color: #333333;
+    border-bottom: 3.98em solid #181712;
+}
+
+#bd-right {
+	background-color: #333333;
+    border-bottom: 3.98em solid #181712;
+}
+
+#botdock {
+	background-color: #333333;
+}
+
+#botdock li a {
+	color: #FFF; /* old is 999 */
+}
+
+#botdock li a:hover {
+	background-color: #444444;
+}
+
+.redbox {
+	background-color: var(--accent-color);
+}
+
+.red-triangle {
+	border-top: 24px solid var(--accent-color);
+}
+
+.postbox {
+	background-color: var(--accent-color);
+}
+
+.white-triangle {
+	border-top: 24px solid var(--accent-color);
+}
+
+.blue-triangle {
+	border-top: 24px solid var(--accent-color);
+}
+
+.bluebox {
+	background-color: var(--accent-color);
+}
+
+/*REPORT TO STAFF BTN*/
+
+.wprc-container.red-colorscheme button.wprc-switch, .wprc-container.red-colorscheme button.wprc-switch:hover, .wprc-container.red-colorscheme button.wprc-switch:active, .wprc-container.red-colorscheme button.wprc-submit, .wprc-container.red-colorscheme button.wprc-submit:hover, .wprc-container.red-colorscheme button.wprc-submit:active {
+    background: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
+#submenu li a {
+	color: white;
+}
+
+.turqoise-bar {
+	background-color: #181712;
+	color: #BBE6F4;
+}
+
+/*TRACKLIST LIST*/
+
+.osc-res-tab .nav-tabs>li.active>a, .osc-res-tab .nav-tabs>li.active>a:hover, .osc-res-tab .nav-tabs>li.active>a:focus {
+	background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    color: #FFF;
+}
+
+.osc-res-tab .nav>li>a:hover, .osc-res-tab .nav>li>a:focus {
+	background-color: #3192B2;
+	color: #FFF;
+	border: none;
+}
+
+#oscitas-restabs-1-pulse-40040 a {
+	color: #FFF;
+}
+
+.osc-res-tab .nav-tabs {
+	border-bottom: 1px solid var(--accent-color);
+}
+
+#bottom {
+	background-color: var(--accent-color);
+}
+
+.site-footer {
+	background-color: var(--accent-color);
+}
+
+.searchbox .btn2 {
+	background: #2886A5;
+	border: 2px solid #2886A5;
+	color: white;
+	margin-left: 5px;
+	padding: 2px 10px;
+	height: 30px;
+	margin-top: -3px;
+}
+
+#oscitas-restabs-1-pulse-84286 a {
+	color: white;
+}
+
+.album-box {
+	-webkit-box-shadow: 0px 0px 0px #181712;
+	box-shadow: 0px 0px 0px #181712;
+}
+
+.topcontainer .btn {
+	background-color: #2886A5;
+}
+
+button, html input[type="button"], input[type="reset"] {
+	border-color: #2886A5 #2886A5 #2886A5 #2886A5;
+}
